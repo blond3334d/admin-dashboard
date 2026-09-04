@@ -10,7 +10,7 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: auto 1fr;
+    /* grid-template-rows: auto 1fr; */
 }
 
 #sidebar {
@@ -18,8 +18,20 @@ body {
     width: clamp(220px, 17vw, 350px);
     position: sticky;
 }
-#branding {
-    padding: 3.5rem 0;
+
+.sidebar-header {
+    padding: 0 1rem;
+    display: flex;
+    gap: 25px;
+    margin-top: 1.5rem;
+}
+.sidebar-header > p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+#navigation {
+    padding: 3rem 0;
 }
 
 .nav {
@@ -42,20 +54,14 @@ body {
 }
 
 #header {
-    /* display: grid;
-    grid-template-rows: 1fr 1fr; */
     padding: 1.5rem 3rem;
     display: grid;
     gap: 1.5rem;
     position: sticky;
 }
 
+.searchbar, 
 .topbar {
-    display: flex;
-    justify-content: space-around;
-}
-
-.searchbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
