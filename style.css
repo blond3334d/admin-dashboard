@@ -18,7 +18,7 @@
 
 body {
     font-family: 'segoe ui', Arial, serif;
-    min-height: 100%;
+    min-height: 100dvh;
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
@@ -93,7 +93,6 @@ body {
     padding: 1.5rem 3rem;
     display: grid;
     gap: 1.5rem;
-    position: sticky;
 }
 
 .searchbar, 
