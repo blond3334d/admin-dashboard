@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "platosan";
+  src:
+    url("/assets/font/PlataSans-Regular.woff2") format("woff2"),
+    url("/assets/font/PlataSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "roboto";
+  src:
+    url("/assets/font/Roboto-Regular.woff2") format("woff2"),
+    url("/assets/font/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -7,6 +27,7 @@
 }
 
 body {
+    font-family: 'roboto', serif;
     min-height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
