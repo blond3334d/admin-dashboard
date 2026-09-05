@@ -1,5 +1,6 @@
 # Admin Dashboard: Daredevil Themed
 A project from The Odin Project's intermediate HTML and CSS course.
+<h4><a href="https://blond3334d.github.io/admin-dashboard/">Live Preview</a></h4>
 
 ## Concepts Applied
 
