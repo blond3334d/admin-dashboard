@@ -164,6 +164,13 @@ button:hover {
     transform: scale(1.025);
 }
 
+.buttons > button:nth-child(3) {
+    background-color: #9c1c1c;
+}
+.buttons > button:nth-child(3):hover {
+    background-color: #111011;
+}
+
 #main-content {
     background-color: #f1ece3;
     display: grid;
